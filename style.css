@@ -1,12 +1,18 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
 body{
 	background: url(imagens/bg.jpg) no-repeat;
 }
 
 .container{
+	padding-bottom:40px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content:flex-end;
 }
 
 .mosquito1{
@@ -59,4 +65,15 @@ body{
 	border-radius:3px;
 	background:rgb(37, 36, 36);
 	padding:13px 20px;
+}
+
+button.iniciar{
+	background:rgb(211, 58, 58);
+}
+
+.form-level{
+	margin-top: -25px;
+	border-radius: 4px;
+	height:40px;
+	margin-bottom:10px;
 }

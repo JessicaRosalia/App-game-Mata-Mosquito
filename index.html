@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fim de Jogo</title>
+
+    <script>
+        function iniciarJogo() {
+            var level = document.querySelector("#level").value
+
+            if (level === '') {
+                alert('Selecione um nível para iniciar o jogo')
+                return false
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <img src="imagens/game.png" alt="">
+
+
+        <select class="form-level" name="" id="level">
+            <option value="">-- Selecione o nível --</option>
+            <option value="normal">Normal </option>
+            <option value="dificil">Difícil</option>
+            <option value="chucknorris">Chuck Norris</option>
+        </select>
+
+
+
+
+        <button onclick="iniciarJogo()" class="btn iniciar" type="button">Iniciar jogo
+        </button>
+    </div>
+</body>
+
+</html>
