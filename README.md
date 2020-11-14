@@ -6,9 +6,9 @@
 </p>
 
 <h2>Technologies</h2>
-- HTML
-- CSS
-- JavaScript
+- HTML <br>
+- CSS <br>
+- JavaScript <br>
 
 <p>:wave: <a href="https://www.linkedin.com/in/j%C3%A9ssica-ros%C3%A1lia-fernandes-310899133/" target=_blank"> Get in touch! </a> </p>
 
